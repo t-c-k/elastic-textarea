@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>elastic-textarea</title>
+    <style>
+        body {
+            font-family: Courier, "Lucida Console", monospace;
+            margin: 100px auto 0;
+            max-width: 600px;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        #elastic-demo {
+            min-height: 46px;
+            width: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="elastic-textarea.css">
+    <script type="text/javascript" src="elastic-textarea.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script>
+        $(function() {
+            var textarea = $(".elasticate")[0],
+                options  = { id: "elastic-demo" };
+
+            textarea.elasticTextarea = new ElasticTextarea(textarea, options);
+        });
+    </script>
+</head>
+
+<body>
+    <h2>elastic-textarea</h2>
+    <textarea class="elasticate" autofocus></textarea>
+</body>
+
+</html>

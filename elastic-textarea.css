@@ -1,0 +1,31 @@
+div.elastic-textarea {
+  position: relative;
+  width: 100%;
+}
+
+div.elastic-textarea > pre, div.elastic-textarea > textarea {
+  border: 1px solid;
+  box-sizing: border-box;
+  font: inherit;
+  line-height: inherit;
+  overflow: hidden;
+  padding: 4px;
+  width: 100%;
+}
+
+div.elastic-textarea > pre {
+  overflow-wrap: break-word;
+  visibility: hidden;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 0;
+}
+
+div.elastic-textarea > textarea {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  resize: none;
+  top: 0;
+  white-space: normal;
+}
