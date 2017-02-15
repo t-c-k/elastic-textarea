@@ -4,7 +4,8 @@ div.elastic-textarea {
 }
 
 div.elastic-textarea > pre, div.elastic-textarea > textarea {
-  border: 1px solid;
+  border-style: solid;
+  border-width: 1px;
   box-sizing: border-box;
   font: inherit;
   line-height: inherit;
