@@ -1,3 +1,3 @@
 # elastic-textarea
 
-Demo: https://rawgit.com/t-c-k/elastic-textarea-js/master/demo.html
+[DEMO](https://rawgit.com/t-c-k/elastic-textarea-js/master/demo.html)
