@@ -15,11 +15,12 @@ div.elastic-textarea > pre, div.elastic-textarea > textarea {
 }
 
 div.elastic-textarea > pre {
+  margin: 0;
   overflow-wrap: break-word;
   visibility: hidden;
   white-space: pre-wrap;
+  word-break: break-word;
   word-wrap: break-word;
-  margin: 0;
 }
 
 div.elastic-textarea > textarea {
